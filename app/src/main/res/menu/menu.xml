@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/search_bar"
+        android:icon="@drawable/searcg"
+        android:orderInCategory="100"
+        android:title="Search"
+        app:showAsAction="ifRoom" />
+    <item
+        android:title="Refresh"
+        android:id="@+id/refresh"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/refresh" />
+    <item
+        android:title="Setting"
+        android:id="@+id/setting"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:icon="@drawable/setting" />
+
+    <item
+        android:id="@+id/info"
+        android:icon="@drawable/info"
+        android:orderInCategory="100"
+        android:title="Info"
+        app:showAsAction="never" />
+
+</menu>

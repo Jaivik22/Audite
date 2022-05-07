@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.audite">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Audite">
+        <activity android:name=".favouriteList"></activity>
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".albumSongs"
+            android:label="Album Songs"
+            android:parentActivityName=".album" />
+        <activity
+            android:name=".album"
+            android:label="Album" />
+        <activity
+            android:name=".User_profile"
+            android:label="User_Profile" />
+        <activity
+            android:name=".RegisterActivity"
+            android:label="Register"
+            android:parentActivityName=".LoginActivity" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="Login"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".PlaySongs"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".SearchableActivity"
+            android:label="Search"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".MainActivity"></activity>
+    </application>
+
+</manifest>

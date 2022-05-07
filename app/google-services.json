@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1074181503302",
+    "project_id": "audite-69376",
+    "storage_bucket": "audite-69376.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1074181503302:android:9e9f1eccb5c64758fe4d47",
+        "android_client_info": {
+          "package_name": "com.example.audite"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1074181503302-v9amu0m50mi98ca13dqt0u1s9dml9a18.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjuz2Dza_LkHsis_jzFd4r7b7vYTl2ebI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1074181503302-v9amu0m50mi98ca13dqt0u1s9dml9a18.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
